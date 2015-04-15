@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Movie Ticket</title>
+</head>
+<body>
+     <div class='container' class="form-inline">
+     <div class="jumbotron">
+         <h1>Epicodus Movie Ticket Booth</h1>
+     </div>
+    <div class="row">
+    <div class="col-sm-4">
+        <h4>Choose movie and time</h4>
+
+        <form id="price">
+
+            <select>
+                <option value="1">Titanic</option>
+                <option value="2">Tom and Jerry</option>
+                <option value="3">Mad Man</option>
+                <option value="4">Epicodus Crazy</option>
+             </select>
+
+         <p>Choose the time you wish to watch the movie</p>
+         <select>
+             <option value="1">12:00pm</option>
+              <option value="1">1:00pm</option>
+              <option value="1">2:00pm</option>
+              <option value="1">3:00pm</option>
+              <option value="2">5:00pm</option>
+              <option value="2">6:00pm</option>
+              <option value="2">7:00pm</option>
+              <option value="2">8:00pm</option>
+              <option value="2">9:00pm</option>
+              <option value="1">10:00pm</option>
+              <option value="1">11:00pm</option>
+          </select>
+
+
+          <div class="form-group">
+            <label type="number" for="focusedInput" required>Let's see you get a discount or not! Declare your age!</label>
+            <input type="number" id="age" name="age" >
+          </div>
+
+          <button type= "submit" class="btn btn-primary" >Get the price!</button>
+        </form>
+        <div id="show_cost">
+            <span class="show_cost"></span>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
